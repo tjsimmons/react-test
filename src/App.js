@@ -1,13 +1,8 @@
 import React from "react";
-import Users from "./Users";
+import Game from "./Game";
 
 const App = function() {
-  return (
-    <>
-      <h1>Hi</h1>
-      <Users />
-    </>
-  );
+  return <Game />;
 };
 
 export default App;
