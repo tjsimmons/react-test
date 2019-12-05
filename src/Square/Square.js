@@ -1,9 +1,20 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-// TODO: make this a reusable component that takes in a param of current player
-// so that the onClick handler will populate the button with the value
-const Square = function() {
-  return <button className="square"></button>;
+const Square = function({ onClick, player }) {
+  return (
+    <button className="square" onClick={onClick}>
+      {player}
+    </button>
+  );
+};
+
+Square.propTypes = {
+  onClick: PropTypes.func.isRequired
+};
+
+Square.defaultProps = {
+  player: ""
 };
 
 export default Square;
