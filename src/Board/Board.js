@@ -1,5 +1,5 @@
 import React from "react";
-import Square from "../Square";
+import Squares from "../Squares";
 import { useState } from "react";
 
 // TODO: json-server to house an API to store square IDs and the player who clicked it??
