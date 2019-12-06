@@ -1,13 +1,40 @@
 {
   "squares": [
-    { "id": 1, "player": "" },
-    { "id": 2, "player": "" },
-    { "id": 3, "player": "" },
-    { "id": 4, "player": "" },
-    { "id": 5, "player": "" },
-    { "id": 6, "player": "" },
-    { "id": 7, "player": "" },
-    { "id": 8, "player": "" },
-    { "id": 9, "player": "" }
+    {
+      "id": 1,
+      "player": "X"
+    },
+    {
+      "id": 2,
+      "player": "O"
+    },
+    {
+      "id": 3,
+      "player": "X"
+    },
+    {
+      "id": 4,
+      "player": "X"
+    },
+    {
+      "id": 5,
+      "player": "O"
+    },
+    {
+      "id": 6,
+      "player": "X"
+    },
+    {
+      "id": 7,
+      "player": "O"
+    },
+    {
+      "id": 8,
+      "player": "X"
+    },
+    {
+      "id": 9,
+      "player": "X"
+    }
   ]
 }

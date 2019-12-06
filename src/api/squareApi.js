@@ -11,8 +11,8 @@ export const getSquares = function() {
 };
 
 export const updateSquare = function(square) {
-  return fetch(baseUrl, {
-    method: "PUT",
+  return fetch(`${baseUrl}/${square.id}`, {
+    method: "PATCH",
     body: JSON.stringify(square),
     headers: {
       "content-type": "application/json"
